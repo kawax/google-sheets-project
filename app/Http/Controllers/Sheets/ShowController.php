@@ -16,9 +16,9 @@ class ShowController extends Controller
 
         Google::setAccessToken($token);
 
-        Sheets::setService(Google::make('sheets'));
-
-        $sheets = Sheets::spreadsheet($spreadsheet_id)->sheetList();
+        $sheets = Sheets::setService(Google::make('sheets'))
+                        ->spreadsheet($spreadsheet_id)
+                        ->sheetList();
 
         return view('sheets.show')->with(compact('spreadsheet_id', 'sheets'));
     }

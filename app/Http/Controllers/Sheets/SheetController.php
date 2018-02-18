@@ -16,9 +16,10 @@ class SheetController extends Controller
 
         Google::setAccessToken($token);
 
-        Sheets::setService(Google::make('sheets'));
-
-        $rows = Sheets::spreadsheet($spreadsheet_id)->sheet($sheet_id)->get();
+        $rows = Sheets::setService(Google::make('sheets'))
+                      ->spreadsheet($spreadsheet_id)
+                      ->sheet($sheet_id)
+                      ->get();
 
         $headers = $rows->pull(0);
 

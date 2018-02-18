@@ -16,10 +16,9 @@ class IndexController extends Controller
 
         Google::setAccessToken($token);
 
-        Sheets::setService(Google::make('sheets'));
-        Sheets::setDriveService(Google::make('drive'));
-
-        $spreadsheets = Sheets::spreadsheetList();
+        $spreadsheets = Sheets::setService(Google::make('sheets'))
+                              ->setDriveService(Google::make('drive'))
+                              ->spreadsheetList();
 
         return view('sheets.index')->with(compact('spreadsheets'));
     }

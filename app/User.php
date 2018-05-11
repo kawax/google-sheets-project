@@ -5,9 +5,12 @@ namespace App;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
+use Revolution\Google\Sheets\Traits\GoogleSheets;
+
 class User extends Authenticatable
 {
     use Notifiable;
+    use GoogleSheets;
 
     /**
      * The attributes that are mass assignable.
@@ -31,4 +34,14 @@ class User extends Authenticatable
         'password',
         'remember_token',
     ];
+
+    /**
+     * Get the Access Token
+     *
+     * @return string
+     */
+    protected function sheetsAccessToken()
+    {
+        return $this->access_token;
+    }
 }

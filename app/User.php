@@ -36,12 +36,26 @@ class User extends Authenticatable
     ];
 
     /**
+     *
+     * @var array
+     */
+    protected $dates = [
+        'created_at',
+        'updated_at',
+    ];
+
+    /**
      * Get the Access Token
      *
-     * @return string
+     * @return string|array
      */
     protected function sheetsAccessToken()
     {
-        return $this->access_token;
+        return [
+            'access_token'  => $this->access_token,
+            'refresh_token' => $this->refresh_token,
+            'expires_in'    => 3600,
+            'created'       => $this->updated_at->getTimestamp(),
+        ];
     }
 }

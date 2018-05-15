@@ -974,16 +974,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.58",
+            "version": "v0.59",
             "source": {
                 "type": "git",
                 "url": "https://github.com/google/google-api-php-client-services.git",
-                "reference": "e21760a34daea7bc29e2866b62f8c8db4e91228d"
+                "reference": "1dbfb1e7ff596c9fe17f4ba8e6a74bb073adbe0f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/google/google-api-php-client-services/zipball/e21760a34daea7bc29e2866b62f8c8db4e91228d",
-                "reference": "e21760a34daea7bc29e2866b62f8c8db4e91228d",
+                "url": "https://api.github.com/repos/google/google-api-php-client-services/zipball/1dbfb1e7ff596c9fe17f4ba8e6a74bb073adbe0f",
+                "reference": "1dbfb1e7ff596c9fe17f4ba8e6a74bb073adbe0f",
                 "shasum": ""
             },
             "require": {
@@ -1007,7 +1007,7 @@
             "keywords": [
                 "google"
             ],
-            "time": "2018-05-06T00:22:52+00:00"
+            "time": "2018-05-14T00:23:02+00:00"
         },
         {
             "name": "google/auth",
@@ -2606,19 +2606,20 @@
         },
         {
             "name": "revolution/laravel-google-sheets",
-            "version": "3.2.4",
+            "version": "3.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/laravel-google-sheets.git",
-                "reference": "cc87cd7f2fca3f4ee94616c3ba4eb3f14ef471b2"
+                "reference": "863fdc66ba3f92106a8d4669c73a4f798557c511"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/laravel-google-sheets/zipball/cc87cd7f2fca3f4ee94616c3ba4eb3f14ef471b2",
-                "reference": "cc87cd7f2fca3f4ee94616c3ba4eb3f14ef471b2",
+                "url": "https://api.github.com/repos/kawax/laravel-google-sheets/zipball/863fdc66ba3f92106a8d4669c73a4f798557c511",
+                "reference": "863fdc66ba3f92106a8d4669c73a4f798557c511",
                 "shasum": ""
             },
             "require": {
+                "illuminate/container": "^5.5",
                 "php": ">=7.0.0",
                 "pulkitjalan/google-apiclient": "^3.1"
             },
@@ -2658,7 +2659,7 @@
                 "laravel",
                 "sheets"
             ],
-            "time": "2018-05-13T06:39:36+00:00"
+            "time": "2018-05-15T01:55:26+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",

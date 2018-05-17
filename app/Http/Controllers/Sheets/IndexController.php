@@ -16,12 +16,16 @@ class IndexController extends Controller
     public function __invoke(Request $request)
     {
         // Facade
-        //        $token = $request->user()->access_token;
+        //        $user = $request->user();
         //
-        //        Google::setAccessToken($token);
+        //        $token = [
+        //            'access_token'  => $user->access_token,
+        //            'refresh_token' => $user->refresh_token,
+        //            'expires_in'    => 3600,
+        //            'created'       => $user->updated_at->getTimestamp(),
+        //        ];
         //
-        //        $spreadsheets = Sheets::setService(Google::make('sheets'))
-        //                              ->setDriveService(Google::make('drive'))
+        //        $spreadsheets = Sheets::setAccessToken($token)
         //                              ->spreadsheetList();
 
         // GoogleSheets Trait

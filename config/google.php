@@ -20,8 +20,8 @@ return [
     'client_id'        => env('GOOGLE_CLIENT_ID', ''),
     'client_secret'    => env('GOOGLE_CLIENT_SECRET', ''),
     'redirect_uri'     => env('GOOGLE_REDIRECT', ''),
-    //    'scopes'          => [\Google_Service_Sheets::DRIVE, \Google_Service_Sheets::SPREADSHEETS],
-    'scopes'           => [\Google_Service_Sheets::DRIVE_READONLY, \Google_Service_Sheets::SPREADSHEETS_READONLY],
+    'scopes'           => [\Google_Service_Sheets::DRIVE, \Google_Service_Sheets::SPREADSHEETS],
+    //    'scopes'           => [\Google_Service_Sheets::DRIVE_READONLY, \Google_Service_Sheets::SPREADSHEETS_READONLY],
     'access_type'      => 'offline',
     'approval_prompt'  => 'force',
     'prompt'           => 'consent', //"none", "consent", "select_account" default:none

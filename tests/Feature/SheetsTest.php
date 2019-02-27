@@ -14,7 +14,7 @@ use Revolution\Google\Sheets\Facades\Sheets;
 
 class SheetsTest extends TestCase
 {
-    public function tearDown()
+    public function tearDown(): void
     {
         m::close();
     }

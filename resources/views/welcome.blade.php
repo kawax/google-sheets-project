@@ -35,7 +35,7 @@
 
                 <div class="form-group">
                     <label for="message">Message</label>
-                    <textarea name="message" class="form-control" id="message" rows="3" required></textarea>
+                    <input name="message" type="text" class="form-control" id="message" required>
                 </div>
 
                 <button type="submit" class="btn btn-primary">Submit</button>

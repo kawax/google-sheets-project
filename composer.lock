@@ -2913,16 +2913,16 @@
         },
         {
             "name": "revolution/laravel-google-sheets",
-            "version": "4.0.2",
+            "version": "4.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/laravel-google-sheets.git",
-                "reference": "9fe2cbee79745f87020e5e8c9ca6ff5cac438831"
+                "reference": "46b87928534071d7775cbca2d423879eb3bf923f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/laravel-google-sheets/zipball/9fe2cbee79745f87020e5e8c9ca6ff5cac438831",
-                "reference": "9fe2cbee79745f87020e5e8c9ca6ff5cac438831",
+                "url": "https://api.github.com/repos/kawax/laravel-google-sheets/zipball/46b87928534071d7775cbca2d423879eb3bf923f",
+                "reference": "46b87928534071d7775cbca2d423879eb3bf923f",
                 "shasum": ""
             },
             "require": {
@@ -2967,7 +2967,7 @@
                 "laravel",
                 "sheets"
             ],
-            "time": "2019-05-25T01:19:25+00:00"
+            "time": "2019-05-25T06:05:36+00:00"
         },
         {
             "name": "seld/jsonlint",

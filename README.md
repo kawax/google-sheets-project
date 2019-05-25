@@ -1,4 +1,4 @@
 # Google Sheets for Laravel Demo project
 
-Demo site(closed, because Google's user limits)
+Demo site
 https://sheets.kawax.biz/

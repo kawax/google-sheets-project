@@ -30,7 +30,6 @@ class PostController extends Controller
 
         Sheets::spreadsheet(config('sheets.post_spreadsheet_id'))
               ->sheet(config('sheets.post_sheet_id'))
-              ->range('')
               ->append([$append]);
 
         return back();

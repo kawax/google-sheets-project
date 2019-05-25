@@ -30,16 +30,15 @@
 
                 <div class="form-group">
                     <label for="name">Name</label>
-                    <input name="name" type="text" class="form-control" id="name">
+                    <input name="name" type="text" class="form-control" id="name" required>
                 </div>
 
                 <div class="form-group">
                     <label for="message">Message</label>
-                    <textarea name="message" class="form-control" id="message" rows="3"></textarea>
+                    <textarea name="message" class="form-control" id="message" rows="3" required></textarea>
                 </div>
 
                 <button type="submit" class="btn btn-primary">Submit</button>
-
             </form>
         </div>
 

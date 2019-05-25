@@ -53,7 +53,7 @@
                             {{ data_get($post, 'message') }}
                         </p>
                         <small>
-                            {{ data_get($post, 'created_at') }}
+                            {{ data_get($post, 'created_at') }} {{ config('app.timezone') }}
                         </small>
                     </div>
                 @endforeach

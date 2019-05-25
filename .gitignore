@@ -13,3 +13,5 @@ yarn-error.log
 Vagrantfile
 after.sh
 aliases
+
+storage/sheets-service-account.json

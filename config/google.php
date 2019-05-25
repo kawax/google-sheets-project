@@ -55,7 +55,7 @@ return [
         /*
         | Path to service account json file
         */
-        'file'   => env('GOOGLE_SERVICE_ACCOUNT_JSON_LOCATION', ''),
+        'file'   => env('GOOGLE_SERVICE_ACCOUNT_JSON_LOCATION', storage_path('sheets-service-account.json')),
     ],
 
     /*

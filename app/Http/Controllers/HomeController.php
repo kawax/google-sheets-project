@@ -21,7 +21,6 @@ class HomeController extends Controller
          * Service Account demo
          */
 
-        
         $sheets = Sheets::spreadsheet(config('sheets.post_spreadsheet_id'))
                         ->sheet(config('sheets.post_sheet_id'))
                         ->get();

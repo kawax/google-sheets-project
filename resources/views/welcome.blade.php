@@ -24,7 +24,7 @@
 
 
     <div class="row">
-        <div class="col">
+        <div class="col-sm">
             <form action="{{ route('post.store') }}" method="post">
                 @csrf
 
@@ -42,7 +42,7 @@
             </form>
         </div>
 
-        <div class="col">
+        <div class="col-sm">
             <div class="list-group mt-3">
                 @foreach($posts as $post)
                     <div class="list-group-item list-group-item-action">

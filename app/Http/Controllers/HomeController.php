@@ -25,7 +25,12 @@ class HomeController extends Controller
                         ->sheet(config('sheets.post_sheet_id'))
                         ->get();
 
-        $header = $sheets->pull(0);
+        //$header = $sheets->pull(0);
+        $header = [
+            'name',
+            'message',
+            'created_at',
+        ];
 
         $posts = Sheets::collection($header, $sheets);
         $posts = $posts->reverse()->take(10);

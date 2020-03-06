@@ -1,1 +1,7 @@
-preset: psr2
+preset: laravel
+disabled:
+  - unused_use
+finder:
+  not-name:
+    - index.php
+    - server.php

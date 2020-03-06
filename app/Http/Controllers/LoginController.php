@@ -2,11 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-
-use Socialite;
-
 use App\User;
+use Illuminate\Http\Request;
+use Socialite;
 
 class LoginController extends Controller
 {
@@ -23,7 +21,7 @@ class LoginController extends Controller
 
     public function callback(Request $request)
     {
-        if (!$request->has('code')) {
+        if (! $request->has('code')) {
             return redirect('/');
         }
 

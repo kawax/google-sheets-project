@@ -2,10 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-
-use Revolution\Google\Sheets\Facades\Sheets;
 use App\Http\Requests\PostRequest;
+use Illuminate\Http\Request;
+use Revolution\Google\Sheets\Facades\Sheets;
 
 class PostController extends Controller
 {
@@ -19,9 +18,8 @@ class PostController extends Controller
     public function __invoke(PostRequest $request)
     {
         /**
-         * Service Account demo
+         * Service Account demo.
          */
-
         $append = [
             $request->input('name'),
             $request->input('message'),

@@ -2,9 +2,8 @@
 
 namespace App;
 
-use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
-
+use Illuminate\Notifications\Notifiable;
 use Revolution\Google\Sheets\Traits\GoogleSheets;
 
 class User extends Authenticatable
@@ -36,7 +35,6 @@ class User extends Authenticatable
     ];
 
     /**
-     *
      * @var array
      */
     protected $dates = [
@@ -45,7 +43,7 @@ class User extends Authenticatable
     ];
 
     /**
-     * Get the Access Token
+     * Get the Access Token.
      *
      * @return string|array
      */

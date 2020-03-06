@@ -2324,21 +2324,21 @@
         },
         {
             "name": "pulkitjalan/google-apiclient",
-            "version": "4.0.0",
+            "version": "4.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pulkitjalan/google-apiclient.git",
-                "reference": "ad53d054dc60d3363f862dc9c4f965dc40f3b314"
+                "reference": "e849e4a79cb9ae1e489b2690c42eaaa5c83ebdd5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pulkitjalan/google-apiclient/zipball/ad53d054dc60d3363f862dc9c4f965dc40f3b314",
-                "reference": "ad53d054dc60d3363f862dc9c4f965dc40f3b314",
+                "url": "https://api.github.com/repos/pulkitjalan/google-apiclient/zipball/e849e4a79cb9ae1e489b2690c42eaaa5c83ebdd5",
+                "reference": "e849e4a79cb9ae1e489b2690c42eaaa5c83ebdd5",
                 "shasum": ""
             },
             "require": {
-                "google/apiclient": "^2.2",
-                "illuminate/support": "~5.8.0|^6.0",
+                "google/apiclient": "^2.4",
+                "illuminate/support": "^5.8|^6.0|^7.0",
                 "php": "^7.2"
             },
             "require-dev": {
@@ -2348,7 +2348,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.0.x-dev"
+                    "dev-master": "4.1.x-dev"
                 },
                 "laravel": {
                     "providers": [
@@ -2380,7 +2380,7 @@
                 "google",
                 "laravel"
             ],
-            "time": "2019-09-06T06:43:35+00:00"
+            "time": "2020-03-04T10:04:12+00:00"
         },
         {
             "name": "ralouphie/getallheaders",
@@ -4638,16 +4638,16 @@
         },
         {
             "name": "facade/ignition",
-            "version": "1.16.0",
+            "version": "1.16.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/facade/ignition.git",
-                "reference": "37f094775814b68d0c6cc8b8ff3c3be243f20725"
+                "reference": "af05ac5ee8587395d7474ec0681c08776a2cb09d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/facade/ignition/zipball/37f094775814b68d0c6cc8b8ff3c3be243f20725",
-                "reference": "37f094775814b68d0c6cc8b8ff3c3be243f20725",
+                "url": "https://api.github.com/repos/facade/ignition/zipball/af05ac5ee8587395d7474ec0681c08776a2cb09d",
+                "reference": "af05ac5ee8587395d7474ec0681c08776a2cb09d",
                 "shasum": ""
             },
             "require": {
@@ -4674,7 +4674,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "v2.x-dev"
+                    "dev-master": "1.x-dev"
                 },
                 "laravel": {
                     "providers": [
@@ -4705,7 +4705,7 @@
                 "laravel",
                 "page"
             ],
-            "time": "2020-01-21T17:46:02+00:00"
+            "time": "2020-03-05T12:39:07+00:00"
         },
         {
             "name": "facade/ignition-contracts",
@@ -5344,16 +5344,16 @@
         },
         {
             "name": "phpspec/prophecy",
-            "version": "v1.10.2",
+            "version": "v1.10.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpspec/prophecy.git",
-                "reference": "b4400efc9d206e83138e2bb97ed7f5b14b831cd9"
+                "reference": "451c3cd1418cf640de218914901e51b064abb093"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/b4400efc9d206e83138e2bb97ed7f5b14b831cd9",
-                "reference": "b4400efc9d206e83138e2bb97ed7f5b14b831cd9",
+                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/451c3cd1418cf640de218914901e51b064abb093",
+                "reference": "451c3cd1418cf640de218914901e51b064abb093",
                 "shasum": ""
             },
             "require": {
@@ -5403,7 +5403,7 @@
                 "spy",
                 "stub"
             ],
-            "time": "2020-01-20T15:57:02+00:00"
+            "time": "2020-03-05T15:02:03+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",

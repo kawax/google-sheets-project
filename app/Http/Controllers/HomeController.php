@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
 use Revolution\Google\Sheets\Facades\Sheets;
 
 class HomeController extends Controller
@@ -18,9 +17,8 @@ class HomeController extends Controller
     public function __invoke(Request $request)
     {
         /**
-         * Service Account demo
+         * Service Account demo.
          */
-
         $sheets = Sheets::spreadsheet(config('sheets.post_spreadsheet_id'))
                         ->sheet(config('sheets.post_sheet_id'))
                         ->get();

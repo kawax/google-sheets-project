@@ -2,10 +2,9 @@
 
 namespace App\Console\Commands;
 
-use Illuminate\Console\Command;
-
-use Revolution\Google\Sheets\Facades\Sheets;
 use Faker\Factory;
+use Illuminate\Console\Command;
+use Revolution\Google\Sheets\Facades\Sheets;
 
 class ResetCommand extends Command
 {

@@ -2,14 +2,13 @@
 
 namespace App\Http\Controllers\Sheets;
 
-use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-
-use Sheets;
 use Google;
+use Illuminate\Http\Request;
+use Sheets;
 
 /**
- * 3. sheet
+ * 3. sheet.
  */
 class SheetController extends Controller
 {

@@ -2,10 +2,9 @@
 
 namespace Tests\Feature;
 
-use Tests\TestCase;
 use Illuminate\Foundation\Testing\RefreshDatabase;
-
 use Revolution\Google\Sheets\Facades\Sheets;
+use Tests\TestCase;
 
 class ExampleTest extends TestCase
 {

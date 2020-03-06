@@ -2,14 +2,13 @@
 
 namespace App\Http\Controllers\Sheets;
 
-use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-
-use Revolution\Google\Sheets\Facades\Sheets;
+use Illuminate\Http\Request;
 use PulkitJalan\Google\Facades\Google;
+use Revolution\Google\Sheets\Facades\Sheets;
 
 /**
- * 1. spreadsheetList
+ * 1. spreadsheetList.
  */
 class IndexController extends Controller
 {

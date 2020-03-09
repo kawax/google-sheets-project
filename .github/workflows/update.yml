@@ -1,6 +1,8 @@
+name: composer update
+
 on:
   schedule:
-    - cron:  '0 0 * * *' #UTC
+    - cron: '0 0 * * *' #UTC
 
 jobs:
   composer_update_job:
@@ -13,3 +15,5 @@ jobs:
         uses: kawax/composer-update-action@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GIT_NAME: kawax
+          GIT_EMAIL: kawaxbiz@gmail.com

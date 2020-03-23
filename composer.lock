@@ -2516,16 +2516,16 @@
         },
         {
             "name": "revolution/laravel-google-sheets",
-            "version": "5.2.1",
+            "version": "5.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/laravel-google-sheets.git",
-                "reference": "f4fa515172c1f8b79042ab16d839ee08651b87e5"
+                "reference": "afcc32bb6811dbd9085bd3de44f9fa94461f0015"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/laravel-google-sheets/zipball/f4fa515172c1f8b79042ab16d839ee08651b87e5",
-                "reference": "f4fa515172c1f8b79042ab16d839ee08651b87e5",
+                "url": "https://api.github.com/repos/kawax/laravel-google-sheets/zipball/afcc32bb6811dbd9085bd3de44f9fa94461f0015",
+                "reference": "afcc32bb6811dbd9085bd3de44f9fa94461f0015",
                 "shasum": ""
             },
             "require": {
@@ -2570,7 +2570,7 @@
                 "laravel",
                 "sheets"
             ],
-            "time": "2020-03-18T23:59:23+00:00"
+            "time": "2020-03-22T04:09:07+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",

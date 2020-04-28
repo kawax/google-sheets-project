@@ -699,16 +699,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.131",
+            "version": "v0.132",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "c7085d771c635933baff9714732af2d5042f5dd6"
+                "reference": "317c8555eaea64a38594d9e617b59547cea45f3e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/c7085d771c635933baff9714732af2d5042f5dd6",
-                "reference": "c7085d771c635933baff9714732af2d5042f5dd6",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/317c8555eaea64a38594d9e617b59547cea45f3e",
+                "reference": "317c8555eaea64a38594d9e617b59547cea45f3e",
                 "shasum": ""
             },
             "require": {
@@ -732,7 +732,7 @@
             "keywords": [
                 "google"
             ],
-            "time": "2020-04-20T00:24:47+00:00"
+            "time": "2020-04-22T00:25:30+00:00"
         },
         {
             "name": "google/auth",
@@ -2478,20 +2478,21 @@
         },
         {
             "name": "revolution/laravel-google-sheets",
-            "version": "5.2.2",
+            "version": "5.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/laravel-google-sheets.git",
-                "reference": "afcc32bb6811dbd9085bd3de44f9fa94461f0015"
+                "reference": "8b043ae9c4d53f1e1d838fd35b98ad6b3106f225"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/laravel-google-sheets/zipball/afcc32bb6811dbd9085bd3de44f9fa94461f0015",
-                "reference": "afcc32bb6811dbd9085bd3de44f9fa94461f0015",
+                "url": "https://api.github.com/repos/kawax/laravel-google-sheets/zipball/8b043ae9c4d53f1e1d838fd35b98ad6b3106f225",
+                "reference": "8b043ae9c4d53f1e1d838fd35b98ad6b3106f225",
                 "shasum": ""
             },
             "require": {
-                "illuminate/container": "*",
+                "illuminate/container": "^6.0||^7.0",
+                "illuminate/support": "^6.0||^7.0",
                 "php": "^7.2||^8.0",
                 "pulkitjalan/google-apiclient": "^4.0"
             },
@@ -2532,7 +2533,7 @@
                 "laravel",
                 "sheets"
             ],
-            "time": "2020-03-22T04:09:07+00:00"
+            "time": "2020-04-27T09:54:56+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -5442,23 +5443,20 @@
         },
         {
             "name": "phpdocumentor/reflection-common",
-            "version": "2.0.0",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/ReflectionCommon.git",
-                "reference": "63a995caa1ca9e5590304cd845c15ad6d482a62a"
+                "reference": "6568f4687e5b41b054365f9ae03fcb1ed5f2069b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/ReflectionCommon/zipball/63a995caa1ca9e5590304cd845c15ad6d482a62a",
-                "reference": "63a995caa1ca9e5590304cd845c15ad6d482a62a",
+                "url": "https://api.github.com/repos/phpDocumentor/ReflectionCommon/zipball/6568f4687e5b41b054365f9ae03fcb1ed5f2069b",
+                "reference": "6568f4687e5b41b054365f9ae03fcb1ed5f2069b",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.1"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~6"
             },
             "type": "library",
             "extra": {
@@ -5490,7 +5488,7 @@
                 "reflection",
                 "static analysis"
             ],
-            "time": "2018-08-07T13:53:10+00:00"
+            "time": "2020-04-27T09:25:28+00:00"
         },
         {
             "name": "phpdocumentor/reflection-docblock",

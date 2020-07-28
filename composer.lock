@@ -789,16 +789,16 @@
         },
         {
             "name": "google/auth",
-            "version": "v1.11.0",
+            "version": "v1.11.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-auth-library-php.git",
-                "reference": "f6752236dbb2d641d50dffee789e553e2fda129d"
+                "reference": "bb959e91bd8ffbd352ab76cbf11d656ce6435088"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-auth-library-php/zipball/f6752236dbb2d641d50dffee789e553e2fda129d",
-                "reference": "f6752236dbb2d641d50dffee789e553e2fda129d",
+                "url": "https://api.github.com/repos/googleapis/google-auth-library-php/zipball/bb959e91bd8ffbd352ab76cbf11d656ce6435088",
+                "reference": "bb959e91bd8ffbd352ab76cbf11d656ce6435088",
                 "shasum": ""
             },
             "require": {
@@ -837,7 +837,7 @@
                 "google",
                 "oauth2"
             ],
-            "time": "2020-07-22T18:24:05+00:00"
+            "time": "2020-07-27T18:33:35+00:00"
         },
         {
             "name": "guzzle/guzzle",
@@ -1137,16 +1137,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v6.18.26",
+            "version": "v6.18.31",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "d11b6168c65251ffa81ae0dfaf017ad2f30013da"
+                "reference": "a731824421f9ebc586728ea9c7cff231a249aaa9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/d11b6168c65251ffa81ae0dfaf017ad2f30013da",
-                "reference": "d11b6168c65251ffa81ae0dfaf017ad2f30013da",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/a731824421f9ebc586728ea9c7cff231a249aaa9",
+                "reference": "a731824421f9ebc586728ea9c7cff231a249aaa9",
                 "shasum": ""
             },
             "require": {
@@ -1281,7 +1281,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2020-07-21T14:25:39+00:00"
+            "time": "2020-07-27T18:23:18+00:00"
         },
         {
             "name": "laravel/socialite",

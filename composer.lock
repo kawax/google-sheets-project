@@ -1151,16 +1151,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v6.18.36",
+            "version": "v6.18.37",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "0fc371134524190fdf31f77c77bc73b096760f18"
+                "reference": "cd1ab410f7dda21de360dabd7fe25ffd2402d2bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/0fc371134524190fdf31f77c77bc73b096760f18",
-                "reference": "0fc371134524190fdf31f77c77bc73b096760f18",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/cd1ab410f7dda21de360dabd7fe25ffd2402d2bc",
+                "reference": "cd1ab410f7dda21de360dabd7fe25ffd2402d2bc",
                 "shasum": ""
             },
             "require": {
@@ -1296,7 +1296,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2020-08-25T13:42:57+00:00"
+            "time": "2020-08-27T14:18:50+00:00"
         },
         {
             "name": "laravel/socialite",

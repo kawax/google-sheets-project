@@ -2786,27 +2786,27 @@
         },
         {
             "name": "revolution/laravel-google-sheets",
-            "version": "5.3.1",
+            "version": "5.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/laravel-google-sheets.git",
-                "reference": "b4b2d9850af7052bdc8245b8fa2f60ceb65927ee"
+                "reference": "6cf9f5ce997e59107ca71dd1e7ac709ad2d1384b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/laravel-google-sheets/zipball/b4b2d9850af7052bdc8245b8fa2f60ceb65927ee",
-                "reference": "b4b2d9850af7052bdc8245b8fa2f60ceb65927ee",
+                "url": "https://api.github.com/repos/kawax/laravel-google-sheets/zipball/6cf9f5ce997e59107ca71dd1e7ac709ad2d1384b",
+                "reference": "6cf9f5ce997e59107ca71dd1e7ac709ad2d1384b",
                 "shasum": ""
             },
             "require": {
-                "illuminate/container": "^6.0||^7.0",
-                "illuminate/support": "^6.0||^7.0",
+                "illuminate/container": "^6.0||^7.0||^8.0",
+                "illuminate/support": "^6.0||^7.0||^8.0",
                 "php": "^7.2||^8.0",
                 "pulkitjalan/google-apiclient": "^4.0"
             },
             "require-dev": {
                 "mockery/mockery": "^1.0",
-                "orchestra/testbench": "^4.0||^5.0",
+                "orchestra/testbench": "^4.0||^5.0||^6.0",
                 "phpunit/phpunit": "^8.0||^9.0"
             },
             "type": "library",
@@ -2841,7 +2841,7 @@
                 "laravel",
                 "sheets"
             ],
-            "time": "2020-04-29T02:24:19+00:00"
+            "time": "2020-08-28T07:00:36+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",

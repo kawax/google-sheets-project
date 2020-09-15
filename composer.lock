@@ -2578,21 +2578,21 @@
         },
         {
             "name": "pulkitjalan/google-apiclient",
-            "version": "4.1.0",
+            "version": "4.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pulkitjalan/google-apiclient.git",
-                "reference": "e849e4a79cb9ae1e489b2690c42eaaa5c83ebdd5"
+                "reference": "7ca0966780e01decdd3d40ec1967e44647df581d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pulkitjalan/google-apiclient/zipball/e849e4a79cb9ae1e489b2690c42eaaa5c83ebdd5",
-                "reference": "e849e4a79cb9ae1e489b2690c42eaaa5c83ebdd5",
+                "url": "https://api.github.com/repos/pulkitjalan/google-apiclient/zipball/7ca0966780e01decdd3d40ec1967e44647df581d",
+                "reference": "7ca0966780e01decdd3d40ec1967e44647df581d",
                 "shasum": ""
             },
             "require": {
                 "google/apiclient": "^2.4",
-                "illuminate/support": "^5.8|^6.0|^7.0",
+                "illuminate/support": "^5.8|^6.0|^7.0|^8.0",
                 "php": "^7.2"
             },
             "require-dev": {
@@ -2634,7 +2634,7 @@
                 "google",
                 "laravel"
             ],
-            "time": "2020-03-04T10:04:12+00:00"
+            "time": "2020-09-14T10:00:30+00:00"
         },
         {
             "name": "ralouphie/getallheaders",

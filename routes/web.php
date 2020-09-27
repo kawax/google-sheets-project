@@ -1,5 +1,9 @@
 <?php
 
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\PostController;
+use Illuminate\Support\Facades\Route;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -11,8 +15,8 @@
 |
 */
 
-Route::get('/', 'HomeController');
-Route::post('post', 'PostController')->name('post.store');
+Route::get('/', HomeController::class);
+Route::post('post', PostController::class)->name('post.store');
 
 //Route::name('login')->get('login', 'LoginController@redirect');
 //Route::get('callback', 'LoginController@callback');

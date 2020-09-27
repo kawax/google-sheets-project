@@ -45,16 +45,15 @@ class ResetCommand extends Command
 
         $faker = Factory::create();
 
-        $append = [];
-
-        for ($i = 1; $i <= 10; $i++) {
-            $append[] = [
-                $faker->name,
+        $append = collect()->times(
+            10,
+            fn ($number) => [
+                'Reset'.$number.' '.$faker->name,
                 $faker->sentence,
                 now()->toDateTimeString(),
-            ];
-        }
+            ]
+        );
 
-        Sheets::append($append);
+        Sheets::append($append->all());
     }
 }

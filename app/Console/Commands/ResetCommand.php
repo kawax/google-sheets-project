@@ -3,6 +3,7 @@
 namespace App\Console\Commands;
 
 use Faker\Factory;
+use Faker\Generator;
 use Illuminate\Console\Command;
 use Revolution\Google\Sheets\Facades\Sheets;
 
@@ -23,6 +24,11 @@ class ResetCommand extends Command
     protected $description = 'Command description';
 
     /**
+     * @var Generator
+     */
+    protected Generator $faker;
+
+    /**
      * Create a new command instance.
      *
      * @return void
@@ -30,6 +36,8 @@ class ResetCommand extends Command
     public function __construct()
     {
         parent::__construct();
+
+        $this->faker = Factory::create();
     }
 
     /**
@@ -43,13 +51,11 @@ class ResetCommand extends Command
               ->sheet(config('sheets.post_sheet_id'))
               ->clear();
 
-        $faker = Factory::create();
-
         $append = collect()->times(
             10,
             fn ($number) => [
-                'Reset'.$number.' '.$faker->name,
-                $faker->sentence,
+                'Reset'.$number.' '.$this->faker->name,
+                $this->faker->sentence,
                 now()->toDateTimeString(),
             ]
         );

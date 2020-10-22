@@ -1293,16 +1293,16 @@
         },
         {
             "name": "laravel/socialite",
-            "version": "v5.0.2",
+            "version": "v5.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/socialite.git",
-                "reference": "87dfaaa0e0a85b707582e4f9bc8dab9664dcb0a4"
+                "reference": "8197acf2fe5446a2800b95d250c1da72fd6051bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/socialite/zipball/87dfaaa0e0a85b707582e4f9bc8dab9664dcb0a4",
-                "reference": "87dfaaa0e0a85b707582e4f9bc8dab9664dcb0a4",
+                "url": "https://api.github.com/repos/laravel/socialite/zipball/8197acf2fe5446a2800b95d250c1da72fd6051bc",
+                "reference": "8197acf2fe5446a2800b95d250c1da72fd6051bc",
                 "shasum": ""
             },
             "require": {
@@ -1354,7 +1354,7 @@
                 "laravel",
                 "oauth"
             ],
-            "time": "2020-10-20T18:53:05+00:00"
+            "time": "2020-10-21T12:45:02+00:00"
         },
         {
             "name": "laravel/tinker",
@@ -2786,16 +2786,16 @@
         },
         {
             "name": "revolution/laravel-google-sheets",
-            "version": "5.3.2",
+            "version": "5.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/laravel-google-sheets.git",
-                "reference": "6cf9f5ce997e59107ca71dd1e7ac709ad2d1384b"
+                "reference": "5ec36a2c3dcce042314c9792b7d21952f9ec0838"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/laravel-google-sheets/zipball/6cf9f5ce997e59107ca71dd1e7ac709ad2d1384b",
-                "reference": "6cf9f5ce997e59107ca71dd1e7ac709ad2d1384b",
+                "url": "https://api.github.com/repos/kawax/laravel-google-sheets/zipball/5ec36a2c3dcce042314c9792b7d21952f9ec0838",
+                "reference": "5ec36a2c3dcce042314c9792b7d21952f9ec0838",
                 "shasum": ""
             },
             "require": {
@@ -2841,7 +2841,7 @@
                 "laravel",
                 "sheets"
             ],
-            "time": "2020-08-28T07:00:36+00:00"
+            "time": "2020-10-21T09:45:40+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -5641,22 +5641,22 @@
         },
         {
             "name": "facade/flare-client-php",
-            "version": "1.3.6",
+            "version": "1.3.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/facade/flare-client-php.git",
-                "reference": "451fadf38e9f635e7f8e1f5b3cf5c9eb82f11799"
+                "reference": "fd688d3c06658f2b3b5f7bb19f051ee4ddf02492"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/facade/flare-client-php/zipball/451fadf38e9f635e7f8e1f5b3cf5c9eb82f11799",
-                "reference": "451fadf38e9f635e7f8e1f5b3cf5c9eb82f11799",
+                "url": "https://api.github.com/repos/facade/flare-client-php/zipball/fd688d3c06658f2b3b5f7bb19f051ee4ddf02492",
+                "reference": "fd688d3c06658f2b3b5f7bb19f051ee4ddf02492",
                 "shasum": ""
             },
             "require": {
                 "facade/ignition-contracts": "~1.0",
                 "illuminate/pipeline": "^5.5|^6.0|^7.0|^8.0",
-                "php": "^7.1",
+                "php": "^7.1|^8.0",
                 "symfony/http-foundation": "^3.3|^4.1|^5.0",
                 "symfony/mime": "^3.4|^4.0|^5.1",
                 "symfony/var-dumper": "^3.4|^4.0|^5.0"
@@ -5698,7 +5698,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2020-09-18T06:35:11+00:00"
+            "time": "2020-10-21T16:02:39+00:00"
         },
         {
             "name": "facade/ignition",

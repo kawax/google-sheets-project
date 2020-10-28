@@ -12,7 +12,7 @@
         "laravel/socialite": "^5.0",
         "laravel/tinker": "^2.0",
         "revolution/laravel-google-sheets": "^5.0",
-        "fzaninotto/faker": "^1.4"
+        "fakerphp/faker": "^1.10"
     },
     "require-dev": {
         "facade/ignition": "^1.4",

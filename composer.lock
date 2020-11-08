@@ -5394,16 +5394,16 @@
         },
         {
             "name": "composer/composer",
-            "version": "2.0.5",
+            "version": "2.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "0934b44a86d4c43e416674e80cd6c94044cd23b3"
+                "reference": "d5789bd8e2d852a6b98fe944ca2ff82e921eb43d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/0934b44a86d4c43e416674e80cd6c94044cd23b3",
-                "reference": "0934b44a86d4c43e416674e80cd6c94044cd23b3",
+                "url": "https://api.github.com/repos/composer/composer/zipball/d5789bd8e2d852a6b98fe944ca2ff82e921eb43d",
+                "reference": "d5789bd8e2d852a6b98fe944ca2ff82e921eb43d",
                 "shasum": ""
             },
             "require": {
@@ -5471,7 +5471,7 @@
             "support": {
                 "irc": "irc://irc.freenode.org/composer",
                 "issues": "https://github.com/composer/composer/issues",
-                "source": "https://github.com/composer/composer/tree/2.0.5"
+                "source": "https://github.com/composer/composer/tree/2.0.6"
             },
             "funding": [
                 {
@@ -5487,7 +5487,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-11-06T19:57:15+00:00"
+            "time": "2020-11-07T10:21:17+00:00"
         },
         {
             "name": "composer/semver",

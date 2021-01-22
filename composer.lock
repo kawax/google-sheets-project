@@ -1220,16 +1220,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v6.20.13",
+            "version": "v6.20.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "12ed06da14e3fe4257cb1ece91c2d3439cc2d34b"
+                "reference": "3464d0232cb75aeadb7b4483f788c1d1a30221d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/12ed06da14e3fe4257cb1ece91c2d3439cc2d34b",
-                "reference": "12ed06da14e3fe4257cb1ece91c2d3439cc2d34b",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/3464d0232cb75aeadb7b4483f788c1d1a30221d4",
+                "reference": "3464d0232cb75aeadb7b4483f788c1d1a30221d4",
                 "shasum": ""
             },
             "require": {
@@ -1369,7 +1369,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2021-01-19T13:41:17+00:00"
+            "time": "2021-01-21T14:10:27+00:00"
         },
         {
             "name": "laravel/socialite",
@@ -8459,12 +8459,12 @@
             "version": "1.9.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/webmozart/assert.git",
+                "url": "https://github.com/webmozarts/assert.git",
                 "reference": "bafc69caeb4d49c39fd0779086c03a3738cbb389"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/assert/zipball/bafc69caeb4d49c39fd0779086c03a3738cbb389",
+                "url": "https://api.github.com/repos/webmozarts/assert/zipball/bafc69caeb4d49c39fd0779086c03a3738cbb389",
                 "reference": "bafc69caeb4d49c39fd0779086c03a3738cbb389",
                 "shasum": ""
             },
@@ -8502,8 +8502,8 @@
                 "validate"
             ],
             "support": {
-                "issues": "https://github.com/webmozart/assert/issues",
-                "source": "https://github.com/webmozart/assert/tree/master"
+                "issues": "https://github.com/webmozarts/assert/issues",
+                "source": "https://github.com/webmozarts/assert/tree/1.9.1"
             },
             "time": "2020-07-08T17:02:28+00:00"
         }

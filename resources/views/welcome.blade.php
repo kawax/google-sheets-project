@@ -1,5 +1,5 @@
 <x-guest-layout>
-    <div class="grid grid-cols-2 gap-5 p-6">
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 p-6">
         <div>
             <h1 class="text-3xl">{{ config('app.name') }}</h1>
             <p>

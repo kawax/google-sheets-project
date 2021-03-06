@@ -12,7 +12,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: composer update action step
-        uses: kawax/composer-update-action@v1
+        uses: kawax/composer-update-action@v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GIT_NAME: kawax

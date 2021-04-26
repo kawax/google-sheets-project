@@ -2,7 +2,7 @@ name: composer update
 
 on:
   schedule:
-    - cron: '0 4 * * *' #UTC
+    - cron: '0 4 * * 1' #UTC
 
 jobs:
   composer_update_job:

@@ -5,15 +5,10 @@ on:
     - cron: '0 4 * * 1' #UTC
 
 jobs:
-  composer_update_job:
-    runs-on: ubuntu-latest
-    name: composer update
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: composer update action step
-        uses: kawax/composer-update-action@v3
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GIT_NAME: kawax
-          GIT_EMAIL: kawaxbiz@gmail.com
+  composer:
+    uses: kawax/composer-workflow/.github/workflows/update.yml@v1
+    secrets:
+      token: ${{ secrets.GITHUB_TOKEN }}
+    with:
+      git-name: kawax
+      git-email: 1502086+kawax@users.noreply.github.com

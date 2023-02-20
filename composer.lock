@@ -706,16 +706,16 @@
         },
         {
             "name": "google/apiclient-services",
-            "version": "v0.287.0",
+            "version": "v0.288.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "ed58596d34272a5cd0dc2c0595d9a678b9834880"
+                "reference": "de6cfa1556faf4a23d9ab5844508bb576f44fdd7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/ed58596d34272a5cd0dc2c0595d9a678b9834880",
-                "reference": "ed58596d34272a5cd0dc2c0595d9a678b9834880",
+                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/de6cfa1556faf4a23d9ab5844508bb576f44fdd7",
+                "reference": "de6cfa1556faf4a23d9ab5844508bb576f44fdd7",
                 "shasum": ""
             },
             "require": {
@@ -744,9 +744,9 @@
             ],
             "support": {
                 "issues": "https://github.com/googleapis/google-api-php-client-services/issues",
-                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.287.0"
+                "source": "https://github.com/googleapis/google-api-php-client-services/tree/v0.288.0"
             },
-            "time": "2023-02-12T01:08:11+00:00"
+            "time": "2023-02-18T01:16:11+00:00"
         },
         {
             "name": "google/auth",
@@ -1285,16 +1285,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v9.51.0",
+            "version": "v9.52.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "b81123134349a013a738a9f7f715c6ce99d5a414"
+                "reference": "eb85cd9d72e5bfa54b4d0d9040786f26d6184a9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/b81123134349a013a738a9f7f715c6ce99d5a414",
-                "reference": "b81123134349a013a738a9f7f715c6ce99d5a414",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/eb85cd9d72e5bfa54b4d0d9040786f26d6184a9e",
+                "reference": "eb85cd9d72e5bfa54b4d0d9040786f26d6184a9e",
                 "shasum": ""
             },
             "require": {
@@ -1479,7 +1479,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2023-02-07T15:37:18+00:00"
+            "time": "2023-02-14T14:51:14+00:00"
         },
         {
             "name": "laravel/serializable-closure",
@@ -1611,16 +1611,16 @@
         },
         {
             "name": "league/commonmark",
-            "version": "2.3.8",
+            "version": "2.3.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/commonmark.git",
-                "reference": "c493585c130544c4e91d2e0e131e6d35cb0cbc47"
+                "reference": "c1e114f74e518daca2729ea8c4bf1167038fa4b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/c493585c130544c4e91d2e0e131e6d35cb0cbc47",
-                "reference": "c493585c130544c4e91d2e0e131e6d35cb0cbc47",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/c1e114f74e518daca2729ea8c4bf1167038fa4b5",
+                "reference": "c1e114f74e518daca2729ea8c4bf1167038fa4b5",
                 "shasum": ""
             },
             "require": {
@@ -1713,7 +1713,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-12-10T16:02:17+00:00"
+            "time": "2023-02-15T14:07:24+00:00"
         },
         {
             "name": "league/config",
@@ -1799,16 +1799,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "3.12.2",
+            "version": "3.12.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "f6377c709d2275ed6feaf63e44be7a7162b0e77f"
+                "reference": "81e87e74dd5213795c7846d65089712d2dda90ce"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/f6377c709d2275ed6feaf63e44be7a7162b0e77f",
-                "reference": "f6377c709d2275ed6feaf63e44be7a7162b0e77f",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/81e87e74dd5213795c7846d65089712d2dda90ce",
+                "reference": "81e87e74dd5213795c7846d65089712d2dda90ce",
                 "shasum": ""
             },
             "require": {
@@ -1870,7 +1870,7 @@
             ],
             "support": {
                 "issues": "https://github.com/thephpleague/flysystem/issues",
-                "source": "https://github.com/thephpleague/flysystem/tree/3.12.2"
+                "source": "https://github.com/thephpleague/flysystem/tree/3.12.3"
             },
             "funding": [
                 {
@@ -1886,7 +1886,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-01-19T12:02:19+00:00"
+            "time": "2023-02-18T15:32:41+00:00"
         },
         {
             "name": "league/mime-type-detection",
@@ -3304,70 +3304,6 @@
             "time": "2023-01-29T21:24:40+00:00"
         },
         {
-            "name": "pulkitjalan/google-apiclient",
-            "version": "6.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/pulkitjalan/google-apiclient.git",
-                "reference": "dad1d6bbfd68d20d7d615c99b6c151a1497789e5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/pulkitjalan/google-apiclient/zipball/dad1d6bbfd68d20d7d615c99b6c151a1497789e5",
-                "reference": "dad1d6bbfd68d20d7d615c99b6c151a1497789e5",
-                "shasum": ""
-            },
-            "require": {
-                "google/apiclient": "^2.9",
-                "illuminate/support": "^8.0|^9.0",
-                "php": "^8.0"
-            },
-            "require-dev": {
-                "mockery/mockery": "^1.2.3",
-                "phpunit/phpunit": "^9.5.10"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "4.1.x-dev"
-                },
-                "laravel": {
-                    "providers": [
-                        "PulkitJalan\\Google\\GoogleServiceProvider"
-                    ],
-                    "aliases": {
-                        "Google": "PulkitJalan\\Google\\Facades\\Google"
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "PulkitJalan\\Google\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Pulkit Jalan"
-                }
-            ],
-            "description": "Google api php client wrapper with Cloud Platform and Laravel support",
-            "homepage": "https://github.com/pulkitjalan/google-apiclient",
-            "keywords": [
-                "cloud platform",
-                "google",
-                "laravel"
-            ],
-            "support": {
-                "issues": "https://github.com/pulkitjalan/google-apiclient/issues",
-                "source": "https://github.com/pulkitjalan/google-apiclient/tree/6.0.0"
-            },
-            "time": "2022-04-18T15:33:33+00:00"
-        },
-        {
             "name": "ralouphie/getallheaders",
             "version": "3.0.3",
             "source": {
@@ -3595,35 +3531,35 @@
         },
         {
             "name": "revolution/laravel-google-sheets",
-            "version": "6.1.0",
+            "version": "6.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kawax/laravel-google-sheets.git",
-                "reference": "c0171e913f971fddb8763e7e24d8909e70ed0098"
+                "reference": "8dea92ade5f563330e1f23ccdcab812b80474ed4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kawax/laravel-google-sheets/zipball/c0171e913f971fddb8763e7e24d8909e70ed0098",
-                "reference": "c0171e913f971fddb8763e7e24d8909e70ed0098",
+                "url": "https://api.github.com/repos/kawax/laravel-google-sheets/zipball/8dea92ade5f563330e1f23ccdcab812b80474ed4",
+                "reference": "8dea92ade5f563330e1f23ccdcab812b80474ed4",
                 "shasum": ""
             },
             "require": {
                 "google/apiclient": "^2.12",
                 "illuminate/container": "^9.0||^10.0",
                 "illuminate/support": "^9.0||^10.0",
-                "php": "^8.0",
-                "pulkitjalan/google-apiclient": "^6.0"
+                "php": ">=8.0"
             },
             "require-dev": {
                 "mockery/mockery": "^1.0",
                 "orchestra/testbench": "^7.0||^8.0",
-                "phpunit/phpunit": "^9.5"
+                "phpunit/phpunit": "^9.5|^10.0"
             },
             "type": "library",
             "extra": {
                 "laravel": {
                     "providers": [
-                        "Revolution\\Google\\Sheets\\Providers\\SheetsServiceProvider"
+                        "Revolution\\Google\\Sheets\\Providers\\SheetsServiceProvider",
+                        "Revolution\\Google\\Sheets\\Providers\\GoogleServiceProvider"
                     ],
                     "aliases": {
                         "Sheets": "Revolution\\Google\\Sheets\\Facades\\Sheets"
@@ -3652,9 +3588,9 @@
                 "sheets"
             ],
             "support": {
-                "source": "https://github.com/kawax/laravel-google-sheets/tree/6.1.0"
+                "source": "https://github.com/kawax/laravel-google-sheets/tree/6.2.0"
             },
-            "time": "2023-01-28T03:27:13+00:00"
+            "time": "2023-02-19T00:10:02+00:00"
         },
         {
             "name": "symfony/console",
@@ -6316,16 +6252,16 @@
         },
         {
             "name": "laravel/breeze",
-            "version": "v1.18.2",
+            "version": "v1.19.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/breeze.git",
-                "reference": "e6cd4e69d20885739c87eb538286d3bfbeaad7e2"
+                "reference": "4bbb1ea3476901c4f5fc706f8d80e4eac31c3afb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/breeze/zipball/e6cd4e69d20885739c87eb538286d3bfbeaad7e2",
-                "reference": "e6cd4e69d20885739c87eb538286d3bfbeaad7e2",
+                "url": "https://api.github.com/repos/laravel/breeze/zipball/4bbb1ea3476901c4f5fc706f8d80e4eac31c3afb",
+                "reference": "4bbb1ea3476901c4f5fc706f8d80e4eac31c3afb",
                 "shasum": ""
             },
             "require": {
@@ -6373,20 +6309,20 @@
                 "issues": "https://github.com/laravel/breeze/issues",
                 "source": "https://github.com/laravel/breeze"
             },
-            "time": "2023-02-02T14:39:03+00:00"
+            "time": "2023-02-14T16:22:13+00:00"
         },
         {
             "name": "laravel/sail",
-            "version": "v1.20.1",
+            "version": "v1.20.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/sail.git",
-                "reference": "4b85dbfa3dceeaf7227e3029707562fd60297e86"
+                "reference": "5ae072b182b1efbec927409e8a3ce3b1078cc42c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/sail/zipball/4b85dbfa3dceeaf7227e3029707562fd60297e86",
-                "reference": "4b85dbfa3dceeaf7227e3029707562fd60297e86",
+                "url": "https://api.github.com/repos/laravel/sail/zipball/5ae072b182b1efbec927409e8a3ce3b1078cc42c",
+                "reference": "5ae072b182b1efbec927409e8a3ce3b1078cc42c",
                 "shasum": ""
             },
             "require": {
@@ -6434,7 +6370,7 @@
                 "issues": "https://github.com/laravel/sail/issues",
                 "source": "https://github.com/laravel/sail"
             },
-            "time": "2023-02-08T02:08:37+00:00"
+            "time": "2023-02-08T20:22:21+00:00"
         },
         {
             "name": "mockery/mockery",

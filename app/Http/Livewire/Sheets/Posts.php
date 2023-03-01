@@ -21,7 +21,7 @@ class Posts extends Component
             'created_at',
         ];
 
-        $posts = Sheets::collection($header, $sheets);
+        $posts = Sheets::collection(header: $header, rows: $sheets);
 
         return $posts->reverse()->take(10);
     }

@@ -43,17 +43,17 @@ class ResetCommand extends Command
     /**
      * Execute the console command.
      *
-     * @return mixed
+     * @return int
      */
-    public function handle()
+    public function handle(): int
     {
         Sheets::spreadsheet(config('sheets.post_spreadsheet_id'))
               ->sheet(config('sheets.post_sheet_id'))
               ->clear();
 
         $append = collect()->times(
-            10,
-            fn ($number) => [
+            number: 10,
+            callback: fn ($number): array => [
                 'Reset'.$number.' '.$this->faker->name,
                 $this->faker->sentence,
                 now()->toDateTimeString(),
@@ -61,5 +61,7 @@ class ResetCommand extends Command
         );
 
         Sheets::append($append->all());
+
+        return 0;
     }
 }

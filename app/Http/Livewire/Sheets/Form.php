@@ -2,6 +2,7 @@
 
 namespace App\Http\Livewire\Sheets;
 
+use Illuminate\View\View;
 use Livewire\Component;
 use Revolution\Google\Sheets\Facades\Sheets;
 
@@ -11,12 +12,12 @@ class Form extends Component
 
     public string $message = '';
 
-    protected $rules = [
+    protected array $rules = [
         'name'    => 'required',
         'message' => 'required',
     ];
 
-    public function post()
+    public function post(): void
     {
         $this->validate();
 
@@ -35,7 +36,7 @@ class Form extends Component
         $this->emit('postAdded');
     }
 
-    public function render()
+    public function render(): View
     {
         return view('livewire.sheets.form');
     }

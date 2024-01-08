@@ -13,7 +13,7 @@ class Form extends Component
     public string $message = '';
 
     protected array $rules = [
-        'name'    => 'required',
+        'name' => 'required',
         'message' => 'required',
     ];
 

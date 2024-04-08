@@ -13,7 +13,7 @@
         "guzzlehttp/guzzle": "^7.5",
         "laravel/framework": "^10.0",
         "laravel/tinker": "^2.7",
-        "livewire/livewire": "^2.12",
+        "livewire/livewire": "^3.4",
         "revolution/laravel-google-sheets": "^6.2"
     },
     "require-dev": {

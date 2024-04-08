@@ -2,7 +2,6 @@
 
 namespace App\Livewire\Sheets;
 
-use Illuminate\View\View;
 use Livewire\Attributes\Validate;
 use Livewire\Component;
 use Revolution\Google\Sheets\Facades\Sheets;

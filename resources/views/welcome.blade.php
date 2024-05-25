@@ -3,7 +3,7 @@
         <div>
             <h1 class="text-3xl">{{ config('app.name') }}</h1>
             <p>
-                Service Account.
+                Service Account sample.
                 <a href="https://github.com/kawax/laravel-google-sheets"
                    target="_blank"
                    class="text-indigo-500 underline">GitHub</a>

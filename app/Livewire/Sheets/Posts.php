@@ -4,13 +4,15 @@ namespace App\Livewire\Sheets;
 
 use Illuminate\Support\Collection;
 use Illuminate\View\View;
+use Livewire\Attributes\Computed;
 use Livewire\Attributes\On;
 use Livewire\Component;
 use Revolution\Google\Sheets\Facades\Sheets;
 
 class Posts extends Component
 {
-    public function getPostsProperty(): Collection
+    #[Computed]
+    public function posts(): Collection
     {
         $sheets = Sheets::spreadsheet(config('sheets.post_spreadsheet_id'))
             ->sheet(config('sheets.post_sheet_id'))

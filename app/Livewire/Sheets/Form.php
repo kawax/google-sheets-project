@@ -19,7 +19,7 @@ class Form extends Component
     public function post(): void
     {
         $this->submitting = true;
-        
+
         $this->validate();
 
         $append = [

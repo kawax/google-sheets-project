@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1750242714">
+  <project timestamp="1750242714" name="Clover Coverage">
+    <package name="App\Console\Commands">
+      <file name="/home/runner/work/google-sheets-project/google-sheets-project/app/Console/Commands/ResetCommand.php">
+        <class name="App\Console\Commands\ResetCommand" namespace="App\Console\Commands">
+          <metrics complexity="2" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="0" elements="17" coveredelements="0"/>
+        </class>
+        <line num="33" type="method" name="__construct" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="35" type="stmt" count="0"/>
+        <line num="37" type="stmt" count="0"/>
+        <line num="43" type="method" name="handle" visibility="public" complexity="1" crap="2" count="0"/>
+        <line num="45" type="stmt" count="0"/>
+        <line num="46" type="stmt" count="0"/>
+        <line num="47" type="stmt" count="0"/>
+        <line num="49" type="stmt" count="0"/>
+        <line num="50" type="stmt" count="0"/>
+        <line num="51" type="stmt" count="0"/>
+        <line num="52" type="stmt" count="0"/>
+        <line num="53" type="stmt" count="0"/>
+        <line num="54" type="stmt" count="0"/>
+        <line num="55" type="stmt" count="0"/>
+        <line num="56" type="stmt" count="0"/>
+        <line num="58" type="stmt" count="0"/>
+        <line num="60" type="stmt" count="0"/>
+        <metrics loc="63" ncloc="45" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="0" elements="17" coveredelements="0"/>
+      </file>
+    </package>
+    <package name="App\Livewire\Sheets">
+      <file name="/home/runner/work/google-sheets-project/google-sheets-project/app/Livewire/Sheets/Form.php">
+        <class name="App\Livewire\Sheets\Form" namespace="App\Livewire\Sheets">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="11" elements="12" coveredelements="12"/>
+        </class>
+        <line num="17" type="method" name="post" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="19" type="stmt" count="6"/>
+        <line num="21" type="stmt" count="3"/>
+        <line num="22" type="stmt" count="3"/>
+        <line num="23" type="stmt" count="3"/>
+        <line num="24" type="stmt" count="3"/>
+        <line num="25" type="stmt" count="3"/>
+        <line num="27" type="stmt" count="3"/>
+        <line num="28" type="stmt" count="3"/>
+        <line num="29" type="stmt" count="3"/>
+        <line num="31" type="stmt" count="3"/>
+        <line num="33" type="stmt" count="3"/>
+        <metrics loc="36" ncloc="36" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="11" elements="12" coveredelements="12"/>
+      </file>
+      <file name="/home/runner/work/google-sheets-project/google-sheets-project/app/Livewire/Sheets/Posts.php">
+        <class name="App\Livewire\Sheets\Posts" namespace="App\Livewire\Sheets">
+          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="11" elements="13" coveredelements="13"/>
+        </class>
+        <line num="14" type="method" name="posts" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="17" type="stmt" count="4"/>
+        <line num="18" type="stmt" count="4"/>
+        <line num="19" type="stmt" count="4"/>
+        <line num="21" type="stmt" count="4"/>
+        <line num="22" type="stmt" count="4"/>
+        <line num="23" type="stmt" count="4"/>
+        <line num="24" type="stmt" count="4"/>
+        <line num="25" type="stmt" count="4"/>
+        <line num="27" type="stmt" count="4"/>
+        <line num="29" type="stmt" count="4"/>
+        <line num="32" type="method" name="render" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="35" type="stmt" count="4"/>
+        <metrics loc="38" ncloc="38" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="11" coveredstatements="11" elements="13" coveredelements="13"/>
+      </file>
+    </package>
+    <package name="App\Providers">
+      <file name="/home/runner/work/google-sheets-project/google-sheets-project/app/Providers/AppServiceProvider.php">
+        <class name="App\Providers\AppServiceProvider" namespace="App\Providers">
+          <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+        </class>
+        <line num="13" type="method" name="register" visibility="public" complexity="1" crap="1" count="10"/>
+        <line num="15" type="stmt" count="10"/>
+        <line num="21" type="method" name="boot" visibility="public" complexity="1" crap="1" count="10"/>
+        <line num="24" type="stmt" count="10"/>
+        <metrics loc="26" ncloc="19" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
+      </file>
+    </package>
+    <metrics files="4" loc="163" ncloc="138" classes="4" methods="7" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="39" coveredstatements="24" elements="46" coveredelements="29"/>
+  </project>
+</coverage>

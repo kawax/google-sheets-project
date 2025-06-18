@@ -23,9 +23,6 @@ class ResetCommand extends Command
      */
     protected $description = 'Command description';
 
-    /**
-     * @var Generator
-     */
     protected Generator $faker;
 
     /**
@@ -42,14 +39,12 @@ class ResetCommand extends Command
 
     /**
      * Execute the console command.
-     *
-     * @return int
      */
     public function handle(): int
     {
         Sheets::spreadsheet(config('sheets.post_spreadsheet_id'))
-              ->sheet(config('sheets.post_sheet_id'))
-              ->clear();
+            ->sheet(config('sheets.post_sheet_id'))
+            ->clear();
 
         $append = collect()->times(
             number: 10,

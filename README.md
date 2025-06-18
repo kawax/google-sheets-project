@@ -11,7 +11,8 @@ https://github.com/invokable/laravel-google-sheets
 The current implementation is a sample code for service account authentication using Laravel 12, Breeze, and Livewire.
 
 ## Branches
-| Branch | Laravel   | Starter Kit      | Authentication Method / Features    |
-|--------|-----------|------------------|-------------------------------------|
-| `6.x`  | Laravel 6 | Old `make:auth`  | OAuth authentication with Socialite |
-| `8.x`  | Laravel 8 | Breeze, Livewire | Service account authentication      |
+| Branch | Laravel    | Starter Kit      | Authentication Method               |
+|--------|------------|------------------|-------------------------------------|
+| `6.x`  | Laravel 6  | Old `make:auth`  | OAuth authentication with Socialite |
+| `8.x`  | Laravel 8  | Breeze, Livewire | Service account authentication      |
+| `11.x` | Laravel 11 | Breeze, Livewire | Service account authentication      |

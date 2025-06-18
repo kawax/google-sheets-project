@@ -4,7 +4,7 @@
             <h1 class="text-3xl">{{ config('app.name') }}</h1>
             <p>
                 Service Account sample.
-                <a href="https://github.com/kawax/laravel-google-sheets"
+                <a href="https://github.com/invokable/laravel-google-sheets"
                    target="_blank"
                    class="text-indigo-500 underline">GitHub</a>
                 <a href="https://docs.google.com/spreadsheets/d/1SUNw7QzAMx-xXUwr5s-mJrZC9NGFRl4RqyzSL6CogkQ/edit?usp=sharing"

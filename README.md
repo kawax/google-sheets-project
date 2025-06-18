@@ -22,10 +22,10 @@ The current implementation is a sample code for service account authentication u
 ## Branches
 | Branch        | Laravel    | Starter Kit                                | Google API Authentication Method    |
 |---------------|------------|--------------------------------------------|-------------------------------------|
-| `6.x`         | Laravel 6  | Old `make:auth`                            | OAuth authentication with Socialite |
-| `8.x`         | Laravel 8  | Breeze, Livewire                           | Service account authentication      |
-| `11.x`        | Laravel 11 | Breeze, Livewire                           | Service account authentication      |
-| `12.x-breeze` | Laravel 12 | Breeze, Livewire                           | Service account authentication      |
+| [`6.x`](https://github.com/invokable/google-sheets-project/tree/6.x)         | Laravel 6  | Old `make:auth`                            | OAuth authentication with Socialite |
+| [`8.x`](https://github.com/invokable/google-sheets-project/tree/8.x)         | Laravel 8  | Breeze, Livewire                           | Service account authentication      |
+| [`11.x`](https://github.com/invokable/google-sheets-project/tree/11.x)        | Laravel 11 | Breeze, Livewire                           | Service account authentication      |
+| [`12.x-breeze`](https://github.com/invokable/google-sheets-project/tree/12.x-breeze) | Laravel 12 | Breeze, Livewire                           | Service account authentication      |
 | `main`        | Laravel 12 | Livewire Starter Kit (standard components) | Service account authentication      |
 
 ## Project Structure

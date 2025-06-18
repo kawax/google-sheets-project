@@ -14,8 +14,12 @@ class Form extends Component
     #[Validate('required')]
     public string $message = '';
 
+    public bool $submitting = false;
+
     public function post(): void
     {
+        $this->submitting = true;
+        
         $this->validate();
 
         $append = [
@@ -29,6 +33,7 @@ class Form extends Component
             ->append([$append]);
 
         $this->reset('name', 'message');
+        $this->submitting = false;
 
         $this->dispatch('postAdded');
     }

@@ -15,11 +15,7 @@ class ExampleTest extends TestCase
      */
     public function test_basic_test()
     {
-        Sheets::expects('spreadsheet')
-            ->andReturnSelf();
-        Sheets::expects('sheet')
-            ->andReturnSelf();
-        Sheets::expects('get')
+        Sheets::expects('spreadsheet->sheet->get')
             ->andReturn(collect([
                 ['John Doe', 'Hello World', '2023-10-01'],
                 ['Jane Doe', 'Goodbye World', '2023-10-02'],

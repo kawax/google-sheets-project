@@ -247,3 +247,9 @@ PHP attribute that defines validation rules for component properties, automatica
 
 **now()->toDateTimeString()** - Laravel helper  
 Carbon method that returns the current timestamp in database-compatible format (Y-m-d H:i:s).
+
+## About fakerphp/faker in Production
+
+The package `fakerphp/faker` is installed using `require` (not `require-dev`) because it is needed by `app/Console/Commands/ResetCommand.php` to generate random names and sentences when resetting the spreadsheet.  
+Although `fakerphp/faker` is typically used for development and testing, its use here is limited to generating dummy data via an artisan command.  
+There are no security or performance issues with using it in production for this scenario.

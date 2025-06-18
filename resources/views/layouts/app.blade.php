@@ -12,22 +12,29 @@
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
 
         @vite(['resources/css/app.css', 'resources/js/app.js'])
-    </head>
-    <body class="font-sans antialiased">
-        <div class="min-h-screen bg-gray-100">
-            @include('layouts.navigation')
 
-            <!-- Page Heading -->
+        @livewireStyles
+    </head>
+    <body class="bg-gray-50 antialiased">
+        <div class="min-h-screen bg-gray-50">
+            <!-- Simple Header -->
             <header class="bg-white shadow">
                 <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-                    {{ $header }}
+                    <div class="flex items-center">
+                        <x-application-logo class="block h-10 w-auto fill-current text-gray-600" />
+                        <h1 class="ml-4 text-xl font-semibold text-gray-900">{{ config('app.name', 'Laravel') }}</h1>
+                    </div>
                 </div>
             </header>
 
-            <!-- Page Content -->
-            <main>
-                {{ $slot }}
+            <!-- Main Content -->
+            <main class="py-12">
+                <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+                    {{ $slot }}
+                </div>
             </main>
         </div>
+
+        @livewireScripts
     </body>
 </html>

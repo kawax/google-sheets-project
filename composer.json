@@ -18,7 +18,6 @@
         "revolution/laravel-google-sheets": "^7.0"
     },
     "require-dev": {
-        "laravel/breeze": "^2.0",
         "laravel/pint": "^1.22",
         "laravel/sail": "^1.21",
         "mockery/mockery": "^1.5",

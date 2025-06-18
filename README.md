@@ -8,7 +8,7 @@ https://docs.google.com/spreadsheets/d/1SUNw7QzAMx-xXUwr5s-mJrZC9NGFRl4RqyzSL6Co
 
 https://github.com/invokable/laravel-google-sheets
 
-The current implementation is a sample code for service account authentication using Laravel 12 and Livewire (no authentication required).
+The current implementation is a sample code for service account authentication using Laravel 12 and Livewire Starter Kit.
 
 ## Features
 

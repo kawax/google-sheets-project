@@ -1,9 +1,8 @@
-<x-layouts.app title="Google Sheets Demo">
-    <flux:main>
-        <div class="mb-8">
-            <flux:heading>Google Sheets Integration Demo</flux:heading>
-            <flux:subheading>Submit data to Google Sheets and view recent entries in real-time</flux:subheading>
-        </div>
+<x-layouts.simple title="Google Sheets Demo">
+    <div class="mb-8">
+        <flux:heading>Google Sheets Integration Demo</flux:heading>
+        <flux:subheading>Submit data to Google Sheets and view recent entries in real-time</flux:subheading>
+    </div>
 
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
             <!-- Form Section -->
@@ -63,5 +62,5 @@
                 </div>
             </div>
         </div>
-    </flux:main>
-</x-layouts.app>
+    </div>
+</x-layouts.simple>

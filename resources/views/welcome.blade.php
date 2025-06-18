@@ -20,7 +20,7 @@
         <div class="bg-white dark:bg-zinc-900 shadow-sm ring-1 ring-zinc-950/5 dark:ring-white/10 rounded-lg">
             <div class="border-b border-zinc-950/5 dark:border-white/10 px-6 py-4">
                 <h2 class="text-lg font-semibold text-zinc-900 dark:text-white">Recent Entries</h2>
-                <p class="mt-1 text-sm text-zinc-600 dark:text-zinc-400">Latest submissions from the Google Sheet</p>
+                <p class="mt-1 text-sm text-zinc-600 dark:text-zinc-400">Latest submissions from the Google Sheet. Data is reset daily.</p>
             </div>
             <div class="px-6 py-6">
                 <livewire:sheets.posts/>

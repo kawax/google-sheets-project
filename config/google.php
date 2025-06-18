@@ -24,7 +24,6 @@ return [
     'redirect_uri' => env('GOOGLE_REDIRECT', ''),
     'scopes' => [Sheets::DRIVE, Sheets::SPREADSHEETS],
     'access_type' => 'offline',
-    'approval_prompt' => 'force',
     'prompt' => 'consent', //"none", "consent", "select_account" default:none
 
     /*

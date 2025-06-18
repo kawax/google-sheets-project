@@ -1,41 +1,60 @@
-<x-app-layout>
-    <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
-        <div class="p-6 text-gray-900">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                <div class="space-y-6">
-                    <div>
-                        <h2 class="text-2xl font-bold text-gray-900 mb-2">{{ config('app.name') }}</h2>
-                        <p class="text-gray-600 mb-4">
-                            Service Account sample for Google Sheets integration.
-                        </p>
-                        <div class="flex space-x-4">
-                            <a href="https://github.com/invokable/laravel-google-sheets"
-                               target="_blank"
-                               class="text-indigo-600 hover:text-indigo-800 underline font-medium">
-                                GitHub Repository
-                            </a>
-                            <a href="https://docs.google.com/spreadsheets/d/1SUNw7QzAMx-xXUwr5s-mJrZC9NGFRl4RqyzSL6CogkQ/edit?usp=sharing"
-                               target="_blank"
-                               class="text-indigo-600 hover:text-indigo-800 underline font-medium">
-                                View Google Sheet
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="space-y-4">
-                        <livewire:sheets.form />
-                        <livewire:sheets.posts />
-                    </div>
-                </div>
-                
-                <div class="bg-gray-50 rounded-lg p-4">
-                    <h3 class="text-lg font-semibold text-gray-900 mb-4">Live Google Sheet</h3>
-                    <iframe
-                        src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSDD2rjbgkrd8JCWGZg2qD59ZVMz31ZwaUAXLcRH7ng4_uAJQwSuBn2BKIlE9W7610qXigH6gU7krZc/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"
-                        class="w-full h-96 border border-gray-200 rounded">
-                    </iframe>
-                </div>
-            </div>
+<x-layouts.app title="Google Sheets Demo">
+    <flux:main>
+        <div class="p-6">
+            <flux:heading size="xl">Google Sheets Integration Demo</flux:heading>
+            <flux:subheading>Submit data to Google Sheets and view recent entries in real-time</flux:subheading>
         </div>
-    </div>
-</x-app-layout>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 p-6">
+            <!-- Form Section -->
+            <flux:card>
+                <flux:card.header>
+                    <flux:heading size="lg">Add New Entry</flux:heading>
+                    <flux:subheading>Submit data to your Google Sheet</flux:subheading>
+                </flux:card.header>
+
+                <flux:card.body class="space-y-4">
+                    <livewire:sheets.form />
+                </flux:card.body>
+            </flux:card>
+
+            <!-- Recent Entries Section -->
+            <flux:card>
+                <flux:card.header>
+                    <flux:heading size="lg">Recent Entries</flux:heading>
+                    <flux:subheading>Latest submissions from the Google Sheet</flux:subheading>
+                </flux:card.header>
+
+                <flux:card.body>
+                    <livewire:sheets.posts />
+                </flux:card.body>
+            </flux:card>
+        </div>
+
+        <!-- Additional Info Section -->
+        <div class="p-6">
+            <flux:card>
+                <flux:card.header>
+                    <flux:heading size="lg">About This Demo</flux:heading>
+                </flux:card.header>
+                
+                <flux:card.body class="space-y-4">
+                    <p class="text-zinc-600 dark:text-zinc-400">
+                        This application demonstrates real-time Google Sheets integration using Laravel and Livewire.
+                        Data submitted through the form is instantly saved to a Google Sheet via the Google Sheets API.
+                    </p>
+                    
+                    <div class="flex flex-wrap gap-4">
+                        <flux:button href="https://github.com/invokable/google-sheets-project" target="_blank" variant="outline" icon="folder-git-2">
+                            View Source Code
+                        </flux:button>
+                        
+                        <flux:button href="https://docs.google.com/spreadsheets/d/1SUNw7QzAMx-xXUwr5s-mJrZC9NGFRl4RqyzSL6CogkQ/edit?usp=sharing" target="_blank" variant="outline" icon="table">
+                            View Live Sheet
+                        </flux:button>
+                    </div>
+                </flux:card.body>
+            </flux:card>
+        </div>
+    </flux:main>
+</x-layouts.app>

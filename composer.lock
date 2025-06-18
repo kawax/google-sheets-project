@@ -3987,16 +3987,16 @@
         },
         {
             "name": "revolution/laravel-google-sheets",
-            "version": "7.1.2",
+            "version": "7.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/invokable/laravel-google-sheets.git",
-                "reference": "d2e720e644afeaa29a5c50d993a67a8252902cbd"
+                "reference": "674f3ba822d66b0d89d18e7f6fe6e96ab034928a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/invokable/laravel-google-sheets/zipball/d2e720e644afeaa29a5c50d993a67a8252902cbd",
-                "reference": "d2e720e644afeaa29a5c50d993a67a8252902cbd",
+                "url": "https://api.github.com/repos/invokable/laravel-google-sheets/zipball/674f3ba822d66b0d89d18e7f6fe6e96ab034928a",
+                "reference": "674f3ba822d66b0d89d18e7f6fe6e96ab034928a",
                 "shasum": ""
             },
             "require": {
@@ -4045,7 +4045,7 @@
                 "sheets"
             ],
             "support": {
-                "source": "https://github.com/invokable/laravel-google-sheets/tree/7.1.2"
+                "source": "https://github.com/invokable/laravel-google-sheets/tree/7.1.3"
             },
             "funding": [
                 {
@@ -4053,7 +4053,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-06-18T00:19:08+00:00"
+            "time": "2025-06-18T03:41:33+00:00"
         },
         {
             "name": "symfony/clock",
